@@ -5,7 +5,7 @@ import MC_HW1intermediate
 
 class TestMediaCloudAPICall (unittest.TestCase):
 	def testMediaCloudAPICall (self):
-		res= MC_HW1intermediateV2.callMediaCloud()
+		res= MC_HW1intermediate.callMediaCloud()
 		assert res!=None 
 
 if __name__ == "__main__":
