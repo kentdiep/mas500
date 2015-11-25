@@ -1,6 +1,6 @@
 import logging
 import unittest
-import MC_HW1intermediateV2
+import MC_HW1intermediate
 
 
 class TestMediaCloudAPICall (unittest.TestCase):
