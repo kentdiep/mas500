@@ -1,11 +1,12 @@
+import logging
 import unittest
+import MC_HW1intermediateV2
 
-from hw1 import connect_to_media_cloud, my_api_key
 
-class MediaCloudTest(unittest.TestCase):
+class TestMediaCloudAPICall (unittest.TestCase):
+	def testMediaCloudAPICall (self):
+		res= MC_HW1intermediateV2.callMediaCloud()
+		assert res!=None 
 
-    def testConnect(self):
-        self.assertTrue(connect_to_media_cloud(my_api_key) is not None)
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
